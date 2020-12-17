@@ -2,7 +2,7 @@
 ## 模拟批量mqtt客户端连接onenet并上报数据，可用于模拟设备上线、收发数据、压力测试、业务测试等
 ## 准备
 #### 1.需了解mqtt和onenet基础知识，了解onenet相关api的调用方式。
-#### 2.需要批量模拟的设备需要提前在onnet平台中进行批量注册。
+#### 2.需要批量模拟的设备需要提前在onenet平台中进行批量注册。
 #### 3.可以使用程序自带生成token的工具类，也可自定义token获取的方式，如http等。
 ## 使用
 ####  1.在 nicemqtt/src/main/resources/application.yml 中指定productId 和 accessKey，目的是为了生成token，指定后端项目运行在localhost的8080端口。
