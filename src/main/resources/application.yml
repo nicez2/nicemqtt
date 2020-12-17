@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: nice-mqtt
+  servlet:
+    multipart:
+      enabled: true #开启文件上传
+      max-file-size: 10MB #限制文件上传大小为10M
+    mvc:
+      async:
+        request-timeout: 600000
+accesskey:
+  xxxxxxxxxxxxxxxxxxxxx
+productId:
+  xxxx
+
